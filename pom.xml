@@ -11,7 +11,7 @@
     <name>apiAutomationTesting</name>
     <description>An API Automation Testing Framework</description>
 
-    <url>http://www.example.com</url>
+    <url>https://mockapi.io/projects</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
