@@ -1,22 +1,24 @@
 package org.project.qa.entities;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Getter;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.Singular;
-import lombok.ToString;
 
 import java.util.List;
 
 @Builder
-@Getter
-@ToString
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Resources {
-    private final String id;
-    private final String name;
-    private final String trademark;
-    private final String stock;
-    private final String price;
-    private final String description;
+    private String id;
+    private String name;
+    private String trademark;
+    private String stock;
+    private String price;
+    private String description;
     @Singular
-    private final List<String> tags;
+    private List<String> tags;
 }

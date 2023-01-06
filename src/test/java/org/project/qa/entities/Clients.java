@@ -1,19 +1,21 @@
 package org.project.qa.entities;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Getter;
-import lombok.ToString;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Builder
-@Getter
-@ToString
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Clients {
-    private final String id;
-    private final String name;
-    private final String lastName;
-    private final String address;
-    private final String country;
-    private final String city;
-    private final String email;
-    private final String phone;
+    private String id;
+    private String name;
+    private String lastName;
+    private String address;
+    private String country;
+    private String city;
+    private String email;
+    private String phone;
 }
